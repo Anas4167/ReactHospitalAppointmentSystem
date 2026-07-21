@@ -10,7 +10,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Swal from "sweetalert2";
-import DepartmentsServices from "../Services/DepartmentsServices";
+import DepartmentsServices from "../services/DepartmentsServices";
 
 const getIconComponent = (name = "") => {
   const value = name.toLowerCase();
