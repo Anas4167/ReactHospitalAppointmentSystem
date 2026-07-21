@@ -7,9 +7,9 @@ import {
 import Swal from "sweetalert2";
 import { Link, useNavigate } from "react-router-dom";
 
-import DoctorsServices from "../Services/DoctorsServices";
-import AppointmentsServices from "../Services/AppointmentsServices";
-import PatientsServices from "../Services/PatientsServices";
+import DoctorsServices from "../services/DoctorsServices";
+import AppointmentsServices from "../services/AppointmentsServices";
+import PatientsServices from "../services/PatientsServices";
 
 function Booking() {
   const navigate = useNavigate();

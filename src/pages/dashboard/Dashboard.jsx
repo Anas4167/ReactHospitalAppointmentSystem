@@ -10,11 +10,11 @@ import {
    UserCog,
 } from "lucide-react";
 
-import AppointmentsServices from "../../Services/AppointmentsServices";
-import DoctorsServices from "../../Services/DoctorsServices";
-import PatientsServices from "../../Services/PatientsServices";
-import DepartmentsServices from "../../Services/DepartmentsServices";
-import UsersServices from "../../Services/UsersServices";
+import AppointmentsServices from "../../services/AppointmentsServices";
+import DoctorsServices from "../../services/DoctorsServices";
+import PatientsServices from "../../services/PatientsServices";
+import DepartmentsServices from "../../services/DepartmentsServices";
+import UsersServices from "../../services/UsersServices";
 import useAuth from "../../hooks/useAuth";
 
 const Dashboard = () => {

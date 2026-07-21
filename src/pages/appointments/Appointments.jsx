@@ -11,9 +11,9 @@ import {
 } from "lucide-react";
 import Swal from "sweetalert2";
 
-import AppointmentsServices from "../../Services/AppointmentsServices";
-import PatientsServices from "../../Services/PatientsServices";
-import DoctorsServices from "../../Services/DoctorsServices";
+import AppointmentsServices from "../../services/AppointmentsServices";
+import PatientsServices from "../../services/PatientsServices";
+import DoctorsServices from "../../services/DoctorsServices";
 
 const Appointments = () => {
   const [appointments, setAppointments] = useState([]);

@@ -10,7 +10,7 @@ import {
 
 import Swal from "sweetalert2";
 
-import ContactServices from "../../Services/Contacts";
+import ContactServices from "../../services/Contacts";
 
 
 const Contacts = () => {

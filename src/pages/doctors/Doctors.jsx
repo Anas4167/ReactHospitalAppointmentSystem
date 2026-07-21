@@ -12,7 +12,7 @@ import {
 
 import Swal from "sweetalert2";
 
-import DoctorsServices from "../../Services/DoctorsServices";
+import DoctorsServices from "../../services/DoctorsServices";
 
 const Doctors = () => {
 

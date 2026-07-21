@@ -11,7 +11,7 @@ import {
 
 import Swal from "sweetalert2";
 
-import PatientsServices from "../../Services/PatientsServices";
+import PatientsServices from "../../services/PatientsServices";
 
 
 const Patients = () => {

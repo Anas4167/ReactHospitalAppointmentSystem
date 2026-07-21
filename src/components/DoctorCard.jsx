@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Stethoscope, ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import DoctorsServices from "../Services/DoctorsServices";
+import DoctorsServices from "../services/DoctorsServices";
 
 const DoctorsCard = () => {
   const [doctors, setDoctors] = useState([]);

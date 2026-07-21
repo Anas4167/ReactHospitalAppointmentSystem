@@ -16,8 +16,8 @@ import {
   Trash2
 } from "lucide-react";
 import Swal from "sweetalert2";
-import DepartmentsServices from "../../Services/DepartmentsServices";
-import DoctorsServices from "../../Services/DoctorsServices";
+import DepartmentsServices from "../../services/DepartmentsServices";
+import DoctorsServices from "../../services/DoctorsServices";
 
 
 // Icon Helper

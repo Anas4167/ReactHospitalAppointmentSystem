@@ -12,8 +12,8 @@ import {
 
 import Swal from "sweetalert2";
 
-import UsersServices from "../../Services/UsersServices";
-import authService from "../../Services/authService";
+import UsersServices from "../../services/UsersServices";
+import authService from "../../services/authService";
 
 import { ROLE_COLORS } from "../../constants/roles";
 

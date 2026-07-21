@@ -14,7 +14,7 @@ Stethoscope,
 
 import Swal from "sweetalert2";
 
-import DepartmentsServices from "../../Services/DepartmentsServices";
+import DepartmentsServices from "../../services/DepartmentsServices";
 
 // Get icon based on department name
 const getIconComponent = (name = "") => {
