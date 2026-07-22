@@ -16,10 +16,18 @@ The application uses JWT authentication and Role-Based Authorization to ensure t
 
 ### 🔐 Authentication
 - Secure Login
+- User Registration
 - JWT Authentication
 - Role-Based Authorization
 - Protected Routes
 - Automatic Session Handling
+- Password Strength Validation
+
+Password requirements:
+- Minimum 8 characters
+- At least one uppercase letter (A-Z)
+- At least one lowercase letter (a-z)
+- At least one number (0-9)
 
 ### 👨‍💼 Administrator
 - Dashboard Overview
@@ -218,7 +226,8 @@ https://localhost:7200/api
 
 - JWT Authentication
 - Protected API Routes
-- Password Hashing
+- Password Hashing using BCrypt
+- Password Strength Validation
 - Role-Based Access Control
 - Secure HTTP Requests
 - Authentication Middleware
