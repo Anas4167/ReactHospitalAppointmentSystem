@@ -34,6 +34,7 @@ import Users from "../pages/users/Users";
 import Appointments from "../pages/appointments/Appointments";
 import Profile from "../pages/profile/Profile";
 
+
 // Error Pages
 import NotFound from "../pages/NotFound";
 import Unauthorized from "../pages/Unauthorized";
@@ -96,6 +97,8 @@ function AppRoutes() {
         { path: "/users", element: <Users />, },
 
         { path: "/appointments", element: <Appointments />, },
+
+        { path: "/contact", element: <Contacts />, },
 
         { path: "/profile", element: <Profile />, },
       ],
