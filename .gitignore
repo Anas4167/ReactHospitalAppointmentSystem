@@ -1,4 +1,19 @@
-# Logs
+# Environment & Secrets (Crucial so .env is never pushed again)
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Build & Production Outputs
+dist/
+dist-ssr/
+build/
+
+# Logs & Debugging
 logs
 *.log
 npm-debug.log*
@@ -7,15 +22,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# Editor & OS Files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
